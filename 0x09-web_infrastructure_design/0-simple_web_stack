@@ -1,0 +1,25 @@
+https://i.imgur.com/oEfGB30.jpg
+
+
+
+
+
+A server is a computer program or device that provides a service to another computer program and its user, also known as the client.
+
+The domain name serves as a connector between the IP address of the server hosting the website and the client's system.
+
+www.foobar.com is coverted to the ip address of the website using the A record.
+
+The webserver(running nginx) returns static webpages and content to the client. it is used to return static webpages. it simply returns a website without any sort of backend calculations.
+
+The aplication server carries out calculations as well as gather information by working with the database. it helps in returning dynamic webpages and can be used with a web server.
+
+The database stores data in a way it can be easily acessed, managed and used. It supplies data to the application server so it can carry out calculations with it.
+
+The client's computer and the server communicate with each other using http(a textual and stateless protocol)
+
+SPOF: this stands for single point of failure, it simply refers to a scenario where the website doesn't funtion because of a fault.
+
+Downtime when maintenance is needed is when the website can't be acessed as it is down so as to be maintained. it could be the software that is to be updated.
+
+Cannot scale if too much incoming traffic is a scenario where the load on the server is too much as a result of alot of people visiting the website. A good solution would be to use a load balancer.
